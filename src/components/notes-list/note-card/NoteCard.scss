@@ -1,0 +1,96 @@
+.box {
+  margin: 0.6em 0;
+  padding-bottom: 0.5rem!important;
+
+  .media-content {
+    overflow-x: hidden;
+  }
+
+  h5 {
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  #card-header {
+    margin-bottom: 0;
+
+    #name-category {
+      padding-bottom: 0;
+    }
+
+    #action-buttons {
+      padding-bottom: 0;
+
+      #delete-note {
+        color: $danger;
+
+        &:hover {
+          color: lighten($black, 20%);
+        }
+      }
+
+      #link-note {
+        color: $dark;
+
+        &:hover {
+          color: lighten($dark, 20%);
+        }
+      }
+      
+      #convert-note {
+        color: $dark;
+        
+        &:hover {
+          color: lighten($dark, 20%);
+        }
+      }
+    }
+  }
+
+  .modal {
+    z-index: 1100;
+    text-align: center;
+  }
+}
+
+.Code-Mirror-line {
+  padding: 0;
+}
+
+.note-file {
+  background-color: $light;
+  padding: 12px;
+  margin-bottom: 10px;
+
+  .note-file-small {
+    font-size: 12px;
+
+    #copy-file {
+      color: $dark;
+
+      &:hover {
+        color: lighten($black, 20%);
+      }
+    }
+    #export-carbon {
+      color: $dark;
+   
+      &:hover {
+        color: lighten($black, 20%);
+      }
+    }
+  }
+}
+
+.visibility-icon {
+  font-size: 16px;
+}
+
+.tag {
+  margin-bottom: 12px;
+  margin-right: 6px;
+}
