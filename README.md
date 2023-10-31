@@ -17,7 +17,7 @@ Browser fingerprinting is the technique of creating a distinct identifier by gat
 ### ⚡ Lightning Fast Profile Creation
 Just four steps to open a fingerprint browser.
 - download the source code
-- download the main program main.exe
+- download the main program main.exe to ```./resources/browermain```
 - run ```npm isntall``` 
 - run ```npm run dev```
 
