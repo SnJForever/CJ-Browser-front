@@ -9,8 +9,8 @@ const brower = {
         // const cleanedText = note.files[keys[0]].content.replace(/\\r\\n/g, '');
         // const escapedText = cleanedText.replace(/\(/g, '\\(').replace(/\)/g, '\\)');
 
-        const exePath = 'src\\brower\\main.exe';
-        // const exePath = process.cwd()+'\\resources\\browermain\\main.exe'
+        // const exePath = 'src\\brower\\main.exe';
+        const exePath = process.cwd()+'\\resources\\browermain\\main.exe'
 
         // 运行外部程序
         const childProcess = spawn(exePath, [JSON.stringify(note.form)], {

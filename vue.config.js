@@ -40,7 +40,7 @@ module.exports = {
           output: "build"
         },
         extraResources: [
-          {from: './src/brower', to: 'browermain'}
+          {from: './resources/browermain', to: 'browermain'}
         ],
         dmg: {
           contents: [
